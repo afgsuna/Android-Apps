@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#abcdef">
+
+
+    <TextView
+        android:id="@+id/kristianstadText"
+        android:layout_width="194dp"
+        android:layout_height="67dp"
+        android:text="@string/kristianstad"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="215dp"
+        android:layout_height="115dp"
+        android:src="@drawable/k1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="304dp"
+        android:layout_height="115dp"
+        android:src="@drawable/k2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/KristianstadDes"
+        android:layout_width="260dp"
+        android:layout_height="133dp"
+        android:text="@string/kristianstad_r_en_t_tort_som_r_centralort_i_kristianstads_kommun_i_sk_ne_l_n_kristianstad_r_sk_nes_fj_rde_st_rsta_t_tort_med_40_653_inv_nare_av_kommunens_83_662_inv_nare_kristianstad_var_tidigare_residensstad_i_kristianstads_l_n_som_uppgick_i_sk_ne_l_n_1996"
+        android:textColor="#E91E63"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
