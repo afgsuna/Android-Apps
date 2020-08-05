@@ -18,9 +18,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+        app:layout_constraintVertical_bias="0.786" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -84,7 +85,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/answerButton1"
+                android:id="@+id/answerButton0"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -92,7 +93,7 @@
                 android:text="Button" />
 
             <Button
-                android:id="@+id/answerButton2"
+                android:id="@+id/answerButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -107,7 +108,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/answerButton3"
+                android:id="@+id/answerButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -116,7 +117,7 @@
                 android:text="Button" />
 
             <Button
-                android:id="@+id/answerButton4"
+                android:id="@+id/answerButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -128,7 +129,7 @@
     </TableLayout>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/messageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
