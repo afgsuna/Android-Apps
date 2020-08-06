@@ -34,21 +34,30 @@ public class MainActivity3 extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
 
 
-
         timerText.setText("0Sec");
         questionText.setText("");
         messageText.setText("Press Go");
         scoreText.setText("0pts");
 
 
-        startButton.setOnClickListener(new View.OnClickListener() {
+
+        View.OnClickListener startButtonClickListener = new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                
+            public void onClick(View v) {
+                Button startButton = (Button) v;
+                startButton.setVisibility(View.INVISIBLE);
+                startGame();
+
             }
-        });
+        };
+
+        startButton.setOnClickListener(startButtonClickListener);
 
 
+
+    }
+
+    private void startGame(){
 
     }
 }
